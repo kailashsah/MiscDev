@@ -4,6 +4,7 @@
 #include<regex>
 #include "conio.h"
 
+//  Approximate matching
 void  tokenize(std::string & text, std::vector<std::string>& text_prefix_tokens, std::vector<std::string>& text_suffix_tokens)
 {
 	std::string text_copy(text);
@@ -78,22 +79,31 @@ std::string findHighestPattern(std::string & pre_text, std::string & post_text, 
 	return result;
 }
 
-
+/*
 int main()
 {
-	/*std::string pre_text("a");
+	{
+	//example params
+	std::string pre_text("a");
 	std::string text("b");
-	std::string post_text("c");*/
+	std::string post_text("c");
+	}
+
+	{
+		//example params
+		//std::string pre_text ("b");
+		//std::string text("ab");
+		//std::string post_text("a");
+	}
 
 	std::string pre_text("bruno");
 	std::string text("nothing");
 	std::string post_text("ingenious");
 
-	//std::string pre_text ("b");
-	//std::string text("ab");
-	//std::string post_text("a");
+	
 
 	std::cout << findHighestPattern(pre_text, post_text, text) << "\n";
 
 	_getch();
 }
+*/
