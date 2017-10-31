@@ -3,6 +3,20 @@
 #include "conio.h"
 
 using namespace std;
+
+/*
+Given a 2D array A, your task is to convert all rows to columns and columns to rows.
+
+Input:
+First line contains 2 space separated integers, N - total rows, M - total columns.
+Each of the next N lines will contain M space separated integers.
+
+Output:
+Print M lines each containing N space separated integers. 
+
+*/
+
+/*
 int main()
 {
 	int Arr1[100][100], Arr2[100][100];
@@ -35,3 +49,5 @@ int main()
 
 	_getch();
 }
+
+*/
